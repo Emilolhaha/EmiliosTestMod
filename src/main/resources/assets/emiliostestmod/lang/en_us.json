@@ -1,0 +1,13 @@
+{
+  "itemGroup.emiliostestmod": "Example Mod Tab",
+  "block.emiliostestmod.example_block": "Example Block",
+  "item.emiliostestmod.example_item": "Example Item",
+
+  "emiliostestmod.configuration.title": "Emilio's Test mod Configs",
+  "emiliostestmod.configuration.section.emiliostestmod.common.toml": "Emilio's Test mod Configs",
+  "emiliostestmod.configuration.section.emiliostestmod.common.toml.title": "Emilio's Test mod Configs",
+  "emiliostestmod.configuration.items": "Item List",
+  "emiliostestmod.configuration.logDirtBlock": "Log Dirt Block",
+  "emiliostestmod.configuration.magicNumberIntroduction": "Magic Number Text",
+  "emiliostestmod.configuration.magicNumber": "Magic Number"
+}
