@@ -1,5 +1,5 @@
 package net.emilolhaha.emiliostestmod;
 
-public class ModBlocks {
+public class ModItems {
 
 }
