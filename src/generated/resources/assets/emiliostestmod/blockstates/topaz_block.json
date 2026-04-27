@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "emiliostestmod:block/topaz_block"
+    }
+  }
+}
