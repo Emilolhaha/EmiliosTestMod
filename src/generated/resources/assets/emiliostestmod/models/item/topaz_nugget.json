@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "emiliostestmod:item/topaz_nugget"
+  }
+}

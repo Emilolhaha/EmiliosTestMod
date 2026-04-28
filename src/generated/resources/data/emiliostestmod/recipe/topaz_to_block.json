@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "emiliostestmod:topaz"
+    },
+    {
+      "item": "emiliostestmod:topaz"
+    },
+    {
+      "item": "emiliostestmod:topaz"
+    },
+    {
+      "item": "emiliostestmod:topaz"
+    },
+    {
+      "item": "emiliostestmod:topaz"
+    },
+    {
+      "item": "emiliostestmod:topaz"
+    },
+    {
+      "item": "emiliostestmod:topaz"
+    },
+    {
+      "item": "emiliostestmod:topaz"
+    },
+    {
+      "item": "emiliostestmod:topaz"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "emiliostestmod:topaz_block"
+  }
+}

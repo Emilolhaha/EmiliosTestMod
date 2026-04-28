@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "emiliostestmod:topaz_nugget_to_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "topaz_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emiliostestmod:topaz_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "topaz_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "emiliostestmod:topaz_nugget_to_block"
+    ]
+  }
+}

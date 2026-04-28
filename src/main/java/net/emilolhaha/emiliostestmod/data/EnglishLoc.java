@@ -1,0 +1,20 @@
+package net.emilolhaha.emiliostestmod.data;
+
+import net.emilolhaha.emiliostestmod.EmiliosTestmod;
+import net.emilolhaha.emiliostestmod.block.ModBlocks;
+import net.emilolhaha.emiliostestmod.item.ModItems;
+import net.minecraft.data.PackOutput;
+import net.neoforged.neoforge.common.data.LanguageProvider;
+
+public class EnglishLoc extends LanguageProvider {
+    public EnglishLoc(PackOutput output) {
+        super(output, EmiliosTestmod.MOD_ID, "en_us");
+    }
+
+    @Override
+    protected void addTranslations() {
+        add(ModBlocks.TOPAZ_BLOCK.get(), "Topaz Block");
+        add(ModItems.TOPAZ_NUGGET.get(), "Topaz Nugget");
+        add(ModItems.TOPAZ.get(), "Topaz");
+    }
+}

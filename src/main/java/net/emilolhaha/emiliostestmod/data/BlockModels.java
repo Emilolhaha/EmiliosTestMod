@@ -6,8 +6,8 @@ import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
-public class BlockModelProvider extends BlockStateProvider {
-    public BlockModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
+public class BlockModels extends BlockStateProvider {
+    public BlockModels(PackOutput output, ExistingFileHelper existingFileHelper) {
         super(output, EmiliosTestmod.MOD_ID, existingFileHelper);
     }
 

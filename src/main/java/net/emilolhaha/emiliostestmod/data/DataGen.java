@@ -22,10 +22,10 @@ public class DataGen {
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
         ExistingFileHelper helper = event.getExistingFileHelper();
 
-        // generator.addProvider(event.includeClient(), new ItemModelProvider(output, helper));
-        generator.addProvider(true, new BlockModelProvider(output, helper));
+        generator.addProvider(event.includeClient(), new ItemModels(output, helper));
+        generator.addProvider(true, new BlockModels(output, helper));
 
-        // generator.addProvider(event.includeServer(), new RecipeProvider(output, lookupProvider));
-        // generator.addProvider(event.includeClient(), new EnglishLocProvider(output));
+        generator.addProvider(event.includeServer(), new Recipes(output, lookupProvider));
+        generator.addProvider(event.includeClient(), new EnglishLoc(output));
     }
 }

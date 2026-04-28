@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "emiliostestmod:topaz_nugget"
+    },
+    {
+      "item": "emiliostestmod:topaz_nugget"
+    },
+    {
+      "item": "emiliostestmod:topaz_nugget"
+    },
+    {
+      "item": "emiliostestmod:topaz_nugget"
+    },
+    {
+      "item": "emiliostestmod:topaz_nugget"
+    },
+    {
+      "item": "emiliostestmod:topaz_nugget"
+    },
+    {
+      "item": "emiliostestmod:topaz_nugget"
+    },
+    {
+      "item": "emiliostestmod:topaz_nugget"
+    },
+    {
+      "item": "emiliostestmod:topaz_nugget"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "emiliostestmod:topaz"
+  }
+}

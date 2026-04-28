@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "emiliostestmod:topaz_to_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "topaz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emiliostestmod:topaz"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "topaz"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "emiliostestmod:topaz_to_block"
+    ]
+  }
+}
