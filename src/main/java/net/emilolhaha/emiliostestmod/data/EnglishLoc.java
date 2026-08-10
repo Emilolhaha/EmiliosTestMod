@@ -14,7 +14,7 @@ public class EnglishLoc extends LanguageProvider {
     @Override
     protected void addTranslations() {
         add(ModBlocks.TOPAZ_BLOCK.get(), "Topaz Block");
-        add(ModItems.TOPAZ_NUGGET.get(), "Topaz Nugget");
+        add(ModItems.TOPAZ_SHARD.get(), "Topaz Shard");
         add(ModItems.TOPAZ.get(), "Topaz");
     }
 }

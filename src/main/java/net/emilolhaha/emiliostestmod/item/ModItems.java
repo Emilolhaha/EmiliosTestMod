@@ -18,7 +18,7 @@ public class ModItems {
     public static final DeferredItem<Item> TOPAZ = ITEMS.register("topaz",
             () -> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> TOPAZ_NUGGET = ITEMS.register("topaz_nugget",
+    public static final DeferredItem<Item> TOPAZ_SHARD = ITEMS.register("topaz_shard",
             () -> new Item(new Item.Properties()));
 
     // Blockitems

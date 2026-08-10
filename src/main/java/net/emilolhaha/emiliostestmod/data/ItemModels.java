@@ -22,7 +22,7 @@ public class ItemModels extends ItemModelProvider {
         forBlockItem(this, ModItems.TOPAZ_BLOCK, "topaz_block");
 
         basicItem(ModItems.TOPAZ.get());
-        basicItem(ModItems.TOPAZ_NUGGET.get());
+        basicItem(ModItems.TOPAZ_SHARD.get());
     }
 
     public static void forBlockItem(ItemModelProvider tmp, DeferredItem<Item> item, String name) {

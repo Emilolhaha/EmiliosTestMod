@@ -32,7 +32,7 @@ public class Recipes extends RecipeProvider {
 
     private void craftingRecipes(RecipeOutput consumer) {
         // Topaz
-        bundleItem9(Ingredient.of(ModItems.TOPAZ_NUGGET), ModItems.TOPAZ.get(), ModItems.TOPAZ_NUGGET.get(), consumer, "topaz_nugget");
+        bundleItem9(Ingredient.of(ModItems.TOPAZ_SHARD), ModItems.TOPAZ.get(), ModItems.TOPAZ_SHARD.get(), consumer, "topaz_shard");
         bundleItem9(Ingredient.of(ModItems.TOPAZ), ModItems.TOPAZ_BLOCK.get(), ModItems.TOPAZ.get(), consumer, "topaz");
     }
 
