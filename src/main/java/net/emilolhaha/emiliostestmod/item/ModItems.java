@@ -26,6 +26,14 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.TOPAZ_BLOCK.get(),
                     new Item.Properties()));
 
+    public static final DeferredItem<Item> TOPAZ_ORE = ITEMS.register("topaz_ore",
+            () -> new BlockItem(ModBlocks.TOPAZ_ORE.get(),
+                    new Item.Properties()));
+
+    public static final DeferredItem<Item> DEEPSLATE_TOPAZ_ORE = ITEMS.register("deepslate_topaz_ore",
+            () -> new BlockItem(ModBlocks.DEEPSLATE_TOPAZ_ORE.get(),
+                    new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

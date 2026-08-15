@@ -1,5 +1,7 @@
 {
+  "block.emiliostestmod.deepslate_topaz_ore": "Deepslate Topaz Ore",
   "block.emiliostestmod.topaz_block": "Topaz Block",
+  "block.emiliostestmod.topaz_ore": "Topaz Ore",
   "item.emiliostestmod.topaz": "Topaz",
-  "item.emiliostestmod.topaz_nugget": "Topaz Nugget"
+  "item.emiliostestmod.topaz_shard": "Topaz Shard"
 }

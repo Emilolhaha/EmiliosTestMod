@@ -19,6 +19,16 @@ public class ModBlocks {
                     .strength(4f)
                     .sound(SoundType.COPPER)));
 
+    public static final DeferredBlock<Block> TOPAZ_ORE = registerBlock("topaz_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f)
+                    .sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> DEEPSLATE_TOPAZ_ORE = registerBlock("deepslate_topaz_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5f)
+                    .sound(SoundType.STONE)));
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         return toReturn;

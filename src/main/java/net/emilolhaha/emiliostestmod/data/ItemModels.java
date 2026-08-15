@@ -20,6 +20,8 @@ public class ItemModels extends ItemModelProvider {
     @Override
     protected void registerModels() {
         forBlockItem(this, ModItems.TOPAZ_BLOCK, "topaz_block");
+        forBlockItem(this, ModItems.TOPAZ_ORE, "topaz_ore");
+        forBlockItem(this, ModItems.DEEPSLATE_TOPAZ_ORE, "deepslate_topaz_ore");
 
         basicItem(ModItems.TOPAZ.get());
         basicItem(ModItems.TOPAZ_SHARD.get());

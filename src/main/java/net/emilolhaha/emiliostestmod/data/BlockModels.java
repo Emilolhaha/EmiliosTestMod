@@ -14,5 +14,7 @@ public class BlockModels extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         simpleBlock(ModBlocks.TOPAZ_BLOCK.get());
+        simpleBlock(ModBlocks.TOPAZ_ORE.get());
+        simpleBlock(ModBlocks.DEEPSLATE_TOPAZ_ORE.get());
     }
 }

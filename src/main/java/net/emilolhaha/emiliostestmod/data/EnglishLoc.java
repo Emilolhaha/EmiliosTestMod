@@ -16,5 +16,7 @@ public class EnglishLoc extends LanguageProvider {
         add(ModBlocks.TOPAZ_BLOCK.get(), "Topaz Block");
         add(ModItems.TOPAZ_SHARD.get(), "Topaz Shard");
         add(ModItems.TOPAZ.get(), "Topaz");
+        add(ModItems.TOPAZ_ORE.get(), "Topaz Ore");
+        add(ModItems.DEEPSLATE_TOPAZ_ORE.get(), "Deepslate Topaz Ore");
     }
 }
