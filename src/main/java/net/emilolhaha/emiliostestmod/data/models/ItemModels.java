@@ -1,4 +1,4 @@
-package net.emilolhaha.emiliostestmod.data;
+package net.emilolhaha.emiliostestmod.data.models;
 
 import net.emilolhaha.emiliostestmod.EmiliosTestmod;
 import net.emilolhaha.emiliostestmod.item.ModItems;

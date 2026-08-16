@@ -2,10 +2,8 @@ package net.emilolhaha.emiliostestmod.item;
 
 import net.emilolhaha.emiliostestmod.EmiliosTestmod;
 import net.emilolhaha.emiliostestmod.block.ModBlocks;
-import net.minecraft.core.component.DataComponents;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.component.BlockItemStateProperties;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
