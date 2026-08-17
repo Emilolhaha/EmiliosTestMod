@@ -2,6 +2,7 @@ package net.emilolhaha.emiliostestmod.data;
 
 import net.emilolhaha.emiliostestmod.EmiliosTestmod;
 import net.emilolhaha.emiliostestmod.block.ModBlocks;
+import net.emilolhaha.emiliostestmod.item.ModCreativeModeTabs;
 import net.emilolhaha.emiliostestmod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.LanguageProvider;
@@ -18,5 +19,6 @@ public class EnglishLoc extends LanguageProvider {
         add(ModItems.TOPAZ.get(), "Topaz");
         add(ModItems.TOPAZ_ORE.get(), "Topaz Ore");
         add(ModItems.DEEPSLATE_TOPAZ_ORE.get(), "Deepslate Topaz Ore");
+        add("creativetab.emiliostestmod.testmod_tab", "Emilio's Testmod");
     }
 }
