@@ -22,5 +22,10 @@ public class ModBlockTags extends BlockTagsProvider {
                 .add(ModBlocks.TOPAZ_BLOCK.get())
                 .add(ModBlocks.DEEPSLATE_TOPAZ_ORE.get())
                 .add(ModBlocks.TOPAZ_ORE.get());
+        tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .replace(false)
+                .add(ModBlocks.TOPAZ_BLOCK.get())
+                .add(ModBlocks.DEEPSLATE_TOPAZ_ORE.get())
+                .add(ModBlocks.TOPAZ_ORE.get());
     }
 }
