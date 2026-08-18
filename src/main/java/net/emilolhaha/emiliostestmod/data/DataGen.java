@@ -41,5 +41,7 @@ public class DataGen {
                 event.includeServer(),
                 new ModBlockTags(output, lookupProvider, helper)
         );
+
+        generator.addProvider(event.includeServer(), new DatapackProvider(output, lookupProvider));
     }
 }
